@@ -126,6 +126,12 @@ ul {
   text-align: center;
 }
 
+ul li {
+  padding: 30px;
+  display: inline-block;
+
+}
+
 .specs {
   width: 100%;
   display: block;
