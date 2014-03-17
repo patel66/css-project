@@ -1,0 +1,34 @@
+top {
+display: block;
+width: 100%;
+height: 470px;
+background: #bac4d4 url("./assets/designer.jpg") repeat;
+background-position: right;
+background-size: 1020px 470px;
+border-bottom: 1px solid #bfc6c7
+}
+
+.top #intro {
+position: absolute;
+display: block;
+margin: 0 6.5%;
+top: 177px;
+color: white;
+text-transform: uppercase;
+letter-spacing: 0.25em;
+}
+
+#intro h1 {
+font-size: 1.2em;
+font-weight: 800;
+margin: 0;
+}
+
+#intro h2 {
+font-size: 1em;
+font-weight: 700;
+margin: 6px 0;
+color: #eeeff0;
+margin-bottom: 40px;
+white-space: nowrap;
+}
