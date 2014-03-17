@@ -1,8 +1,19 @@
-top {
+#wrapper {
+background: white;
+display: block;
+min-height: 100%;
+max-width: 1020px;
+min-width: 640px;
+margin: 0 auto;
+border-right: 1px solid #bfc6c7;
+border-left: 1px solid #bfc6c7;
+}
+
+.top {
 display: block;
 width: 100%;
 height: 470px;
-background: #bac4d4 url("./assets/designer.jpg") repeat;
+background: url('./assets/designer.jpg') repeat;
 background-position: right;
 background-size: 1020px 470px;
 border-bottom: 1px solid #bfc6c7
@@ -31,4 +42,24 @@ margin: 6px 0;
 color: #eeeff0;
 margin-bottom: 40px;
 white-space: nowrap;
+}
+
+#intro a{
+color: white;
+cursor: pointer !important;
+letter-spacing: 0.15em;
+font-weight: 700;
+font-size: 0.9em;
+border: 2px solid;
+border-radius: 5px;
+padding: 9px 10px 8px 10px;
+text-decoration: none;
+}
+
+body {
+  font-family: sans-serif;
+  background: #e8eaef;
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
 }
